@@ -4,7 +4,7 @@ Thanks for considering a contribution. This guide is shared across all `@stevenz
 
 ## 1. Before you start
 
-- **Check [GOOD_FIRST_ISSUES.md](https://github.com/stevenzhao07/medical-ai-toolkit/blob/main/GOOD_FIRST_ISSUES.md)** if you are new — these are scoped, claimable tasks.
+- **Check the [portal issue tracker](https://github.com/stevenzhao07/medical-ai-toolkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)** if you are new — look for issues labelled `good first issue` (scoped, claimable tasks).
 - **Search existing Issues/PRs** to avoid duplication.
 - For anything touching **regulatory content, medical-risk logic, or license/IP**, open an Issue first and wait for maintainer confirmation. We do not accept silent changes to those areas.
 
@@ -53,4 +53,4 @@ Do **not** mark 🔵 or ⚪ unless it is actually true. When unsure, write "⚠�
 
 ## 6. Code of conduct
 
-All participants must follow [CODE_OF_CONDUCT.md](https://github.com/stevenzhao07/medical-ai-toolkit/blob/main/CODE_OF_CONDUCT.md).
+All participants must follow this repository's [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).

@@ -45,7 +45,7 @@ We separate four distinct levels and **never conflate them** (the full conventio
 
 ## 📄 License
 
-Declared intent: code primarily **Apache-2.0**, **documentation/content under CC BY 4.0** (some reference texts CC0), where a `LICENSE` file is present. Across the account, licenses are **mixed per repository** (Apache-2.0 / CC BY 4.0 / CC0 / MIT) — see each repo's `LICENSE`. A `LICENSE` file for this profile repo is being added in a pending PR; until filed, the license here is proposed, not yet final.
+Declared intent: code primarily **Apache-2.0**, **documentation/content under CC BY 4.0** (some reference texts CC0), where a `LICENSE` file is present. Across the account, licenses are **mixed per repository** (Apache-2.0 / CC BY 4.0 / CC0 / MIT) — see each repo's `LICENSE`. A `LICENSE` file for this profile repo is **pending owner approval (deferred)**; until filed, the license here is proposed, not yet final.
 
 ## 🔗 Related / associated accounts
 
