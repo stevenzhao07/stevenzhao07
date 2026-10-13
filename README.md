@@ -1,41 +1,93 @@
-# 👋 MedXpert · 医疗 AI 开源工具链
+# Xinghua Zhao — medical-device RA & AI governance
 
-> 骨科医疗器械合规 + AI 治理的可插拔开源模块集合，由 [@stevenzhao07](https://github.com/stevenzhao07) 维护。
-> Pure technical input · 关联披露：[MedXpert](https://www.medxpert.cn)
+Open-source, zero-dependency tooling for the **full lifecycle of medical-device AI**, organised as a plugin matrix on **LGD**. Medical devices are the reference domain; the skeleton is industry-neutral.
 
-![License](https://img.shields.io/badge/license-Apache--2.0%20%7C%20CC--BY--4.0%20%7C%20CC0-blue)
-![Modules](https://img.shields.io/badge/modules-10-brightgreen)
-![Contract](https://img.shields.io/badge/contract-lgd--skeleton%2F1.0-purple)
+[![License: Apache-2.0 / CC BY 4.0 / CC0](https://img.shields.io/badge/license-Apache--2.0%20%7C%20CC%20BY%204.0%20%7C%20CC0-blue)](#licence)
+[![Modules](https://img.shields.io/badge/modules-21-brightgreen)](https://github.com/stevenzhao07/medical-ai-toolkit)
+[![Contract](https://img.shields.io/badge/contract-lgd--skeleton%2F1.0-purple)](https://github.com/stevenzhao07/medical-ai-toolkit)
+[![Dependencies](https://img.shields.io/badge/third--party%20deps-none-success)](https://github.com/stevenzhao07/medical-ai-toolkit)
 
-## 🧭 我是谁
-医疗器械注册（RA）与 AI 治理一线从业者，专注把「合规到临床落地」的能力沉淀为可复用、可插拔的开源模块。
-本账号是 **MedXpert 医疗 AI 工程门面**——所有仓库均为纯技术实现，关联 MedXpert 但独立署名。
+**Portal and routing table:** [medical-ai-toolkit](https://github.com/stevenzhao07/medical-ai-toolkit) · [live site](https://stevenzhao07.github.io/medical-ai-toolkit/)
 
-## 🗂 作品集（10 仓 · lgd-skeleton/1.0 可插拔契约）
+## What this account is
 
-| 仓库 | 层 | 一句话 |
+I work in medical-device registration (RA) and AI governance, and publish the parts of that work that are generalisable as open modules: regulatory mappings, quality-system structures, validation gates, and interoperability profiles. Every repository is a pure technical contribution — zero third-party dependencies, runnable offline, auditable years later. MedXpert is disclosed as an affiliation, not promoted as a product.
+
+## The matrix — 21 repositories
+
+**AI-governance layer (9)**
+
+| Repository | Covers | Standards referenced |
 |---|---|---|
-| [medxpert-medai-landing](https://github.com/stevenzhao07/medxpert-medai-landing) | 门户 | 总入口 · 路由 9 个子模块 |
-| [medxpert-delivery-guard](https://github.com/stevenzhao07/medxpert-delivery-guard) | L4 | 18 道确定性合规门禁 + 双 SHA-256 指纹 |
-| [medxpert-multilingual-ifu](https://github.com/stevenzhao07/medxpert-multilingual-ifu) | L5 | 12 语种骨科 IFU 语料（护城河） |
-| [medxpert-a3-laws](https://github.com/stevenzhao07/medxpert-a3-laws) | L2 | A³ Laws 运行时约束（权限 / 自主 / 追责） |
-| [medxpert-ai-passport](https://github.com/stevenzhao07/medxpert-ai-passport) | L2/L3 | AI 护照签发 / 验证 + 指纹 |
-| [medxpert-samd-ra-kit](https://github.com/stevenzhao07/medxpert-samd-ra-kit) | L1 | SaMD 监管映射（NMPA / MDR / FDA / PMDA） |
-| [medxpert-ai-governance](https://github.com/stevenzhao07/medxpert-ai-governance) | L2 | 治理检查清单 + 模型卡 / 数据卡模板 |
-| [medxpert-fhir-ortho](https://github.com/stevenzhao07/medxpert-fhir-ortho) | L3 | 骨科 UDI FHIR R4 资源 |
-| [medxpert-omop-ortho](https://github.com/stevenzhao07/medxpert-omop-ortho) | L3 | 骨科 → OMOP 概念集 |
-| [medxpert-ml-validation](https://github.com/stevenzhao07/medxpert-ml-validation) | L4 | ML 性能 / 校准 / 公平性校验（零依赖） |
+| [samd-ra-toolkit](https://github.com/stevenzhao07/samd-ra-toolkit) | SaMD/AIaMD registration and quality system | NMPA · EU MDR · FDA · PMDA · IEC 62304 · ISO 14971 |
+| [ai-governance-checklist](https://github.com/stevenzhao07/ai-governance-checklist) | Governance self-check; model/data cards | — |
+| [ai-a3-laws](https://github.com/stevenzhao07/ai-a3-laws) | Runtime constraints: authority / autonomy / accountability | — |
+| [ai-model-passport](https://github.com/stevenzhao07/ai-model-passport) | Model identity, provenance, verification | — |
+| [fhir-ortho-toolkit](https://github.com/stevenzhao07/fhir-ortho-toolkit) | UDI profiles for HL7 FHIR R4 | HL7 FHIR R4 |
+| [omop-ortho-toolkit](https://github.com/stevenzhao07/omop-ortho-toolkit) | Concept-set and ETL toward OMOP | OHDSI OMOP CDM v5.4 |
+| [ml-validation-toolkit](https://github.com/stevenzhao07/ml-validation-toolkit) | Performance, calibration, subgroup fairness | — |
+| [delivery-guard](https://github.com/stevenzhao07/delivery-guard) | 17 pre-delivery gates; dual SHA-256 provenance | — |
+| [multilingual-ifu](https://github.com/stevenzhao07/multilingual-ifu) | IFU template in 14 language versions | — |
 
-## 🔗 双线协调
-- **开源实现线（本账号）**：代码与模板，社区可署名 MedXpert。
-- **治理理念线**：医疗 AI 信任方法论（治理守护者 / 立法者 / 护照官 / 共存倡导），以个人专家身份对外分享，CC BY 4.0。
+**Device-lifecycle layer (11)**
 
-## 📜 合规披露
-所有仓库遵循 **lgd-skeleton/1.0** 可插拔契约；许可以各仓 LICENSE 为准（Apache-2.0 / CC-BY-4.0 / CC0）。
-纯技术贡献，不主张标准制定权，关联机构仅作署名披露。
+| Repository | Stage | Standards referenced |
+|---|---|---|
+| [design-controls-toolkit](https://github.com/stevenzhao07/design-controls-toolkit) | Design controls | ISO 13485 §7.3 · 21 CFR 820.30 · IEC 62366-1 |
+| [iso14971-risk-file](https://github.com/stevenzhao07/iso14971-risk-file) | Risk management | ISO 14971 · TR 24971 |
+| [iec62304-software](https://github.com/stevenzhao07/iec62304-software) | Software lifecycle | IEC 62304 (A/B/C, SOUP) |
+| [device-regulatory-map](https://github.com/stevenzhao07/device-regulatory-map) | Classification and route mapping | NMPA · EU MDR · FDA · PMDA |
+| [clinical-evaluation](https://github.com/stevenzhao07/clinical-evaluation) | Clinical evaluation | MDR Art.61 · MDCG · CER + PMCF |
+| [biocompatibility-iso10993](https://github.com/stevenzhao07/biocompatibility-iso10993) | Biocompatibility | ISO 10993-1 |
+| [sterilization-validation](https://github.com/stevenzhao07/sterilization-validation) | Sterilisation and cleaning | ISO 11135 · 11137 · 17665 |
+| [manufacturing-gmp](https://github.com/stevenzhao07/manufacturing-gmp) | Production quality | GMP 2025 revision · IQ/OQ/PQ |
+| [udi-assignment](https://github.com/stevenzhao07/udi-assignment) | UDI assignment | GS1 · HIBCC · ICCBBA · 21 CFR 830 · EUDAMED |
+| [pms-vigilance](https://github.com/stevenzhao07/pms-vigilance) | Post-market surveillance | NMPA Order No.1 & No.29 · MDR Art.87 |
+| [cybersecurity-medical](https://github.com/stevenzhao07/cybersecurity-medical) | Cybersecurity | IEC 81001-5-1 · SBOM · STRIDE |
 
-## 🛠 技术栈
-Python 3.8+（零依赖标准库为主） · JSON 契约 · FHIR R4 · OMOP CDM · GitHub REST API
+**Portal (1)** — [medical-ai-toolkit](https://github.com/stevenzhao07/medical-ai-toolkit): routing, machine-discoverable manifests, self-test harness.
+
+## LGD
+
+LGD is the governance framework underneath the matrix: an industry-neutral core (`router.py`, `harness.py`, `config/`) plus pluggable domain modules described by a declarative `module.json`. The medical matrix is the worked example, not the boundary — the ordering, the gates and the audit trail are the reusable parts. A worked non-medical example lives in [`examples/domains/legal-compliance`](https://github.com/stevenzhao07/medical-ai-toolkit/tree/main/examples/domains/legal-compliance).
+
+## How to participate
+
+Corrections are the highest-value contribution: regulations change, so a value that was right a year ago may be wrong today. Open an issue on the relevant repository with the source that contradicts it, try a module on your own data, contribute a fix — or claim one of the 21 modules as maintainer. Other industries are explicitly welcome: keep the core, add your own `domains/` modules.
+
+## Licence
+
+Apache-2.0 / CC BY 4.0 / CC0 as stated in each repository's LICENSE. Pure technical contribution; no standard-setting claim is made; affiliation is disclosed, not promoted.
 
 ---
-⭐ 若这些模块对你有用，欢迎 star / fork / 提 PR。
+## 中文
+
+医疗器注册（RA）与 AI 治理从业者。把其中可通用的部分，做成**零依赖、可离线审计**的开源模块，按 **LGD** 插件矩阵组织 —— 医疗器械是参考示例领域，骨架本身与行业无关。
+
+**门户与路由表：** [medical-ai-toolkit](https://github.com/stevenzhao07/medical-ai-toolkit) · [在线站点](https://stevenzhao07.github.io/medical-ai-toolkit/)
+
+### 这个账号是什么
+
+我在医疗器械注册与 AI 治理一线工作，把其中能通用的部分公开成模块：法规映射、质量体系结构、验证门禁、互操作轮廓。每个仓库都是纯技术贡献 —— 无第三方依赖、可离线运行、多年后可复现。MedXpert 作为关联披露，不作为产品推广。
+
+### 矩阵 —— 21 个仓库
+
+**AI 治理层（9）**：`samd-ra-toolkit`（跨辖区注册映射）、`ai-governance-checklist`（治理自检 / 模型卡·数据卡）、`ai-a3-laws`（权限–自主–追责运行时约束）、`ai-model-passport`（模型身份与溯源）、`fhir-ortho-toolkit`（FHIR R4 UDI 轮廓）、`omop-ortho-toolkit`（OMOP 概念集与 ETL）、`ml-validation-toolkit`（性能 / 校准 / 公平性）、`delivery-guard`（17 道交付门禁 + 双 SHA-256 权属台账）、`multilingual-ifu`（IFU 14 个语言版本）。
+
+**器械生命周期层（11）**：`design-controls-toolkit`（设计控制）、`iso14971-risk-file`（风险管理）、`iec62304-software`（软件生命周期）、`device-regulatory-map`（分类与路径映射）、`clinical-evaluation`（临床评价与 PMCF）、`biocompatibility-iso10993`（生物相容性）、`sterilization-validation`（灭菌与清洁）、`manufacturing-gmp`（生产质量 / IQ·OQ·PQ）、`udi-assignment`（UDI 赋码）、`pms-vigilance`（上市后警戒）、`cybersecurity-medical`（网络安全）。
+
+**门户（1）**：`medical-ai-toolkit` —— 路由、机器可发现清单、自检测试框架。
+
+（各仓引用的标准与法规见英文表格。）
+
+### LGD
+
+LGD 是矩阵底下的治理框架：与行业无关的内核（`router.py`、`harness.py`、`config/`）+ 由声明式 `module.json` 描述的领域插件。医疗矩阵只是已经做出来的样例，不是边界 —— 可复用的是顺序、门禁与审计轨迹。跨行业最小示例见 [`examples/domains/legal-compliance`](https://github.com/stevenzhao07/medical-ai-toolkit/tree/main/examples/domains/legal-compliance)。
+
+### 如何参与
+
+纠错是价值最高的贡献：法规在变，去年正确的值今年可能已过时。请在对应仓库提 Issue 并附上与你所指相矛盾的来源；也可以在用自己的数据试用后反馈、提交修复，或**认领 21 个模块中的一个作为维护者**。其他行业同样欢迎：保留内核，加自己的 `domains/` 模块即可。
+
+### 许可
+
+各仓 LICENSE 声明（Apache-2.0 / CC BY 4.0 / CC0）。纯技术贡献，不主张标准制定权；关联机构仅作署名披露。
