@@ -4,7 +4,7 @@ Thanks for considering a contribution. This guide is shared across all `@stevenz
 
 ## 1. Before you start
 
-- **Check [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md)** if you are new — these are scoped, claimable tasks.
+- **Check [GOOD_FIRST_ISSUES.md](https://github.com/stevenzhao07/medical-ai-toolkit/blob/main/GOOD_FIRST_ISSUES.md)** if you are new — these are scoped, claimable tasks.
 - **Search existing Issues/PRs** to avoid duplication.
 - For anything touching **regulatory content, medical-risk logic, or license/IP**, open an Issue first and wait for maintainer confirmation. We do not accept silent changes to those areas.
 
@@ -29,7 +29,7 @@ python <module>.py --selftest
 
 ## 3. Verification tiers — claim only what you did
 
-We separate four levels and never conflate them (see `PROJECT_ATTRIBUTION.md`):
+We separate four levels and never conflate them (see the project's attribution note for the full convention, pending a separate PR):
 
 - 🟢 **CI** — automated checks pass in GitHub Actions.
 - 🟡 **Functional self-test** — you ran the module's own self-test and it passed.
@@ -47,10 +47,10 @@ Do **not** mark 🔵 or ⚪ unless it is actually true. When unsure, write "⚠�
 
 ## 5. License & contributor credit
 
-- By contributing, you agree your contribution is licensed under the repo license (**Apache-2.0** code / **CC BY 4.0** content).
+- By contributing, you agree your contribution is licensed under the repository's own `LICENSE`. Across the account the licenses are **mixed per repository** (Apache-2.0 / CC BY 4.0 / CC0 / MIT) — see each repo's `LICENSE` for the authoritative terms.
 - You will be credited in the module README's contributor list and in release notes.
 - Maintainers may request a short CLA confirmation for large contributions.
 
 ## 6. Code of conduct
 
-All participants must follow [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+All participants must follow [CODE_OF_CONDUCT.md](https://github.com/stevenzhao07/medical-ai-toolkit/blob/main/CODE_OF_CONDUCT.md).

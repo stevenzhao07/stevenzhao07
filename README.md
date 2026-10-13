@@ -2,7 +2,7 @@
 
 > Open-source, **zero-dependency** tooling for the **full lifecycle of medical-device AI**, organised as a plugin matrix on **LGD** — a declarative, industry-neutral skeleton in which every capability is an independently loadable module. Medical devices are the reference domain; the skeleton itself is industry-neutral and extensible to AI agents, cybersecurity and other verticals.
 
-**Affiliation:** MedXpert (medical-device regulatory-affairs & AI-governance consultancy) · Pure technical input, no commercial promotion.
+**Focus:** open-source tooling for medical-device regulatory affairs & AI governance, published as an individual project by [@stevenzhao07](https://github.com/stevenzhao07). Pure technical input, no commercial promotion.
 
 ---
 
@@ -26,13 +26,13 @@
 ## 🤝 How to contribute
 
 - Read the **[Contributing Guide](https://github.com/stevenzhao07/medical-ai-toolkit/blob/main/CONTRIBUTING.md)** (hosted in the portal).
-- Pick a task from **[Good First Issues](https://github.com/stevenzhao07/medical-ai-toolkit/blob/main/GOOD_FIRST_ISSUES.md)** if you are new.
+- Pick a task from **[Good First Issues](https://github.com/stevenzhao07/medical-ai-toolkit/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)** if you are new.
 - Open an Issue or PR against the relevant repository. Every change goes through a branch + pull request; **nothing is merged to `main` without review.**
-- Report security or regulatory-accuracy concerns via **[SECURITY.md](https://github.com/stevenzhao07/medical-ai-toolkit/blob/main/SECURITY.md)**.
+- Report security or regulatory-accuracy concerns via the portal's **[Security policy](https://github.com/stevenzhao07/medical-ai-toolkit/security)**.
 
 ## ✅ Verification status — honest convention
 
-We separate four distinct levels and **never conflate them** (see [PROJECT_ATTRIBUTION.md](./PROJECT_ATTRIBUTION.md) for the full convention):
+We separate four distinct levels and **never conflate them** (the full convention is documented in the project's attribution note, pending a separate PR):
 
 | Tier | Meaning | Current state (2026-10-13) |
 |---|---|---|
@@ -45,7 +45,7 @@ We separate four distinct levels and **never conflate them** (see [PROJECT_ATTRI
 
 ## 📄 License
 
-Declared intent: **code under Apache-2.0**, **documentation/content under CC BY 4.0** (some reference texts CC0). A `LICENSE` file is being added in a pending PR; until then the license is declared in this README and should be treated as proposed, not yet filed.
+Declared intent: code primarily **Apache-2.0**, **documentation/content under CC BY 4.0** (some reference texts CC0), where a `LICENSE` file is present. Across the account, licenses are **mixed per repository** (Apache-2.0 / CC BY 4.0 / CC0 / MIT) — see each repo's `LICENSE`. A `LICENSE` file for this profile repo is being added in a pending PR; until filed, the license here is proposed, not yet final.
 
 ## 🔗 Related / associated accounts
 
@@ -53,8 +53,8 @@ Some repositories originate from or are mirrored with the associated account **[
 
 ## 🤖 Attribution & AI assistance
 
-This account and its documentation were produced with AI assistance. The specification for the account reorganisation was drafted with ChatGPT and reviewed by the account owner; execution was performed by a WorkBuddy agent on the owner's machine. See **[PROJECT_ATTRIBUTION.md](./PROJECT_ATTRIBUTION.md)** for the full, dated disclosure (author, affiliation, AI-assistance, license, contributor credit, verification convention).
+This account and its documentation were produced with AI assistance. The specification for the account reorganisation was drafted with ChatGPT and reviewed by the account owner; execution was performed by a WorkBuddy agent on the owner's machine. AI is assistive only and does not replace domain-expert review or official-source verification. (Full dated disclosure — author, AI-assistance, license, contributor credit, verification convention — is pending a separate PR.)
 
 ---
 
-*Maintained by [@stevenzhao07](https://github.com/stevenzhao07) · MedXpert · Last layout update: 2026-10-13.*
+*Maintained by [@stevenzhao07](https://github.com/stevenzhao07) · Last layout update: 2026-10-13.*
