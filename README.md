@@ -123,3 +123,14 @@ This account and its documentation were produced with AI assistance. The specifi
 ---
 
 *由 [@stevenzhao07](https://github.com/stevenzhao07) 维护 · 最近布局更新：2026-10-16。*
+
+## Three accounts, one pipeline
+
+| Account | Role | Scope |
+|---|---|---|
+| [zhaoxinghua09-cell](https://github.com/zhaoxinghua09-cell) | Theory & governance (理论号) | LGD doctrine, skill index, flagship repos |
+| [stevenzhao07](https://github.com/stevenzhao07) | Product (产品号) | Product-facing delivery, .github shared host, AGENTS.md rollout |
+| [LGD-Eval](https://github.com/LGD-Eval) | Evaluation (评测号) | Evaluation protocol, reports, skill-audit gates |
+
+中文：「三角互链 · 三号分工」——理论号管治理与站位件，产品号管产品交付，评测号管独立评测与质量门槛；写操作按号隔离，不混号。
+
