@@ -1,5 +1,7 @@
 # Xinghua Zhao · 赵兴华 — Medical-Device RA & AI Governance
 
+> **门户 / Portal:** [LGD Hub · 生态超市入口](https://zhaoxinghua09-cell.github.io/lgd-hub/) ｜ LGD 生态·产品线（Lifecycle Governance Doctrine）
+
 > Open-source, **zero-dependency** tooling for the **full lifecycle of medical-device AI**, organised as a plugin matrix on **LGD** — a declarative, industry-neutral skeleton in which every capability is an independently loadable module. Medical devices are the reference domain; the skeleton itself is industry-neutral and extensible to AI agents, cybersecurity and other verticals.
 
 **Focus:** open-source tooling for medical-device regulatory affairs & AI governance, published as an individual project by [@stevenzhao07](https://github.com/stevenzhao07). Pure technical input, no commercial promotion.
@@ -12,16 +14,15 @@
 
 ## 🗂 Project categories
 
-> Repository count verified via GitHub API on **2026-10-16**: **26 public repositories** under `@stevenzhao07`.
+> Repository count verified via GitHub API on **2026-10-24**: **13 public repositories** under `@stevenzhao07`.
 
 | Category | Repositories |
 |---|---|
 | **Portal / profile** | [medical-ai-toolkit](https://github.com/stevenzhao07/medical-ai-toolkit) · [stevenzhao07](https://github.com/stevenzhao07/stevenzhao07) (this repo) |
-| **AI governance & trust methodology** | [ai-a3-laws](https://github.com/stevenzhao07/ai-a3-laws) · [ai-governance-checklist](https://github.com/stevenzhao07/ai-governance-checklist) · [ai-model-passport](https://github.com/stevenzhao07/ai-model-passport) · [delivery-guard](https://github.com/stevenzhao07/delivery-guard) |
-| **Medical-device lifecycle (QMS / RA)** | [design-controls-toolkit](https://github.com/stevenzhao07/design-controls-toolkit) · [device-regulatory-map](https://github.com/stevenzhao07/device-regulatory-map) · [iec62304-software](https://github.com/stevenzhao07/iec62304-software) · [iso14971-risk-file](https://github.com/stevenzhao07/iso14971-risk-file) · [manufacturing-gmp](https://github.com/stevenzhao07/manufacturing-gmp) · [clinical-evaluation](https://github.com/stevenzhao07/clinical-evaluation) · [biocompatibility-iso10993](https://github.com/stevenzhao07/biocompatibility-iso10993) · [sterilization-validation](https://github.com/stevenzhao07/sterilization-validation) · [pms-vigilance](https://github.com/stevenzhao07/pms-vigilance) · [udi-assignment](https://github.com/stevenzhao07/udi-assignment) · [cybersecurity-medical](https://github.com/stevenzhao07/cybersecurity-medical) |
-| **AI / ML tooling** | [ml-validation-toolkit](https://github.com/stevenzhao07/ml-validation-toolkit) · [samd-ra-toolkit](https://github.com/stevenzhao07/samd-ra-toolkit) |
-| **Interop / data / labeling** | [fhir-ortho-toolkit](https://github.com/stevenzhao07/fhir-ortho-toolkit) · [omop-ortho-toolkit](https://github.com/stevenzhao07/omop-ortho-toolkit) · [multilingual-ifu](https://github.com/stevenzhao07/multilingual-ifu) |
-| **Cross-domain / ecosystem** | [silent-failure-catalog](https://github.com/stevenzhao07/silent-failure-catalog) · [uibc-core](https://github.com/stevenzhao07/uibc-core) · [awesome-healthcare-agents](https://github.com/stevenzhao07/awesome-healthcare-agents) · [machine-sync](https://github.com/stevenzhao07/machine-sync) |
+| **AI governance & trust methodology** | [delivery-guard](https://github.com/stevenzhao07/delivery-guard) |
+| **Medical-device lifecycle (QMS / RA)** | [iso14971-risk-file](https://github.com/stevenzhao07/iso14971-risk-file) · [sterilization-validation](https://github.com/stevenzhao07/sterilization-validation) · [udi-assignment](https://github.com/stevenzhao07/udi-assignment) |
+| **Interop / data / labeling** | [multilingual-ifu](https://github.com/stevenzhao07/multilingual-ifu) · [regdoc-commons](https://github.com/stevenzhao07/regdoc-commons) · [doc-translate-keep-layout](https://github.com/stevenzhao07/doc-translate-keep-layout) |
+| **Cross-domain / ecosystem** | [silent-failure-catalog](https://github.com/stevenzhao07/silent-failure-catalog) · [uibc-core](https://github.com/stevenzhao07/uibc-core) · [awesome-healthcare-agents](https://github.com/stevenzhao07/awesome-healthcare-agents) · [.github](https://github.com/stevenzhao07/.github) (shared community health) |
 
 ## 🤝 How to contribute
 
@@ -77,16 +78,15 @@ This account and its documentation were produced with AI assistance. The specifi
 
 ## 🗂 项目分类
 
-> 仓库数量经 GitHub API 于 **2026-10-16** 核验：`@stevenzhao07` 名下 **26 个公开仓库**。
+> 仓库数量经 GitHub API 于 **2026-10-24** 核验：`@stevenzhao07` 名下 **13 个公开仓库**。
 
 | 分类 | 仓库 |
 |---|---|
 | **门户 / 主页** | [medical-ai-toolkit](https://github.com/stevenzhao07/medical-ai-toolkit) · [stevenzhao07](https://github.com/stevenzhao07/stevenzhao07)（本仓） |
-| **AI 治理与信任方法论** | [ai-a3-laws](https://github.com/stevenzhao07/ai-a3-laws) · [ai-governance-checklist](https://github.com/stevenzhao07/ai-governance-checklist) · [ai-model-passport](https://github.com/stevenzhao07/ai-model-passport) · [delivery-guard](https://github.com/stevenzhao07/delivery-guard) |
-| **医疗器械生命周期（QMS / RA）** | [design-controls-toolkit](https://github.com/stevenzhao07/design-controls-toolkit) · [device-regulatory-map](https://github.com/stevenzhao07/device-regulatory-map) · [iec62304-software](https://github.com/stevenzhao07/iec62304-software) · [iso14971-risk-file](https://github.com/stevenzhao07/iso14971-risk-file) · [manufacturing-gmp](https://github.com/stevenzhao07/manufacturing-gmp) · [clinical-evaluation](https://github.com/stevenzhao07/clinical-evaluation) · [biocompatibility-iso10993](https://github.com/stevenzhao07/biocompatibility-iso10993) · [sterilization-validation](https://github.com/stevenzhao07/sterilization-validation) · [pms-vigilance](https://github.com/stevenzhao07/pms-vigilance) · [udi-assignment](https://github.com/stevenzhao07/udi-assignment) · [cybersecurity-medical](https://github.com/stevenzhao07/cybersecurity-medical) |
-| **AI / ML 工具** | [ml-validation-toolkit](https://github.com/stevenzhao07/ml-validation-toolkit) · [samd-ra-toolkit](https://github.com/stevenzhao07/samd-ra-toolkit) |
-| **互操作 / 数据 / 标识** | [fhir-ortho-toolkit](https://github.com/stevenzhao07/fhir-ortho-toolkit) · [omop-ortho-toolkit](https://github.com/stevenzhao07/omop-ortho-toolkit) · [multilingual-ifu](https://github.com/stevenzhao07/multilingual-ifu) |
-| **跨领域 / 生态** | [silent-failure-catalog](https://github.com/stevenzhao07/silent-failure-catalog) · [uibc-core](https://github.com/stevenzhao07/uibc-core) · [awesome-healthcare-agents](https://github.com/stevenzhao07/awesome-healthcare-agents) · [machine-sync](https://github.com/stevenzhao07/machine-sync) |
+| **AI 治理与信任方法论** | [delivery-guard](https://github.com/stevenzhao07/delivery-guard) |
+| **医疗器械生命周期（QMS / RA）** | [iso14971-risk-file](https://github.com/stevenzhao07/iso14971-risk-file) · [sterilization-validation](https://github.com/stevenzhao07/sterilization-validation) · [udi-assignment](https://github.com/stevenzhao07/udi-assignment) |
+| **互操作 / 数据 / 标识** | [multilingual-ifu](https://github.com/stevenzhao07/multilingual-ifu) · [regdoc-commons](https://github.com/stevenzhao07/regdoc-commons) · [doc-translate-keep-layout](https://github.com/stevenzhao07/doc-translate-keep-layout) |
+| **跨领域 / 生态** | [silent-failure-catalog](https://github.com/stevenzhao07/silent-failure-catalog) · [uibc-core](https://github.com/stevenzhao07/uibc-core) · [awesome-healthcare-agents](https://github.com/stevenzhao07/awesome-healthcare-agents) · [.github](https://github.com/stevenzhao07/.github)（共享社区健康文件） |
 
 ## 🤝 如何参与贡献
 
