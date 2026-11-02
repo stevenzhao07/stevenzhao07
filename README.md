@@ -14,7 +14,7 @@
 
 ## 🗂 Project categories
 
-> Repository count verified via GitHub API on **2026-10-24**: **13 public repositories** under `@stevenzhao07`.
+> Repository count verified via GitHub API on **2026-11-02**: **33 public repositories** under `@stevenzhao07`.
 
 | Category | Repositories |
 |---|---|
@@ -35,18 +35,31 @@
 
 We separate four distinct levels and **never conflate them**:
 
-| Tier | Meaning | Current state (2026-10-16) |
+| Tier | Meaning | Current state (2026-11-02) |
 |---|---|---|
-| 🟢 **CI** | Automated checks pass in GitHub Actions | `medical-ai-toolkit` harness green (last success 2026-10-13 02:55Z) |
+| 🔴 **CI** | Automated checks pass in GitHub Actions | `medical-ai-toolkit` harness currently failing (checked 2026-11-02); fix in progress |
 | 🟡 **Functional self-test** | Module ships a runnable self-test | Partial — most CLI modules include a self-test path; coverage varies per module |
 | 🔵 **Expert review** | Domain-expert sign-off | **Pending** — these are reference implementations, not clinically validated |
 | ⚪ **Official source verification** | Regulatory constants traced to a dated official source | Partial — where annotated (e.g. GMP 2025 #107 verified 2026-10-12); others marked "verify before use" |
 
 > ⚠️ **Nothing here is a medical device, a certified regulatory submission, or clinical advice.** Tools output decision-support references; users remain responsible for confirming against current official texts.
 
-## 📄 License
+## 🆔 Identity
 
-Declared intent: code primarily **Apache-2.0**, **documentation/content under CC BY 4.0** (some reference texts CC0), where a `LICENSE` file is present. Across the account, licenses are **mixed per repository** (Apache-2.0 / CC BY 4.0 / CC0 / MIT) — see each repo's `LICENSE`. A `LICENSE` file for this profile repo is **pending owner approval (deferred)**; until filed, the license here is proposed, not yet final.
+- ORCID: 0009-0001-0512-1237
+- Rights holder: © 2026 赵兴华 / Steven Zhao (ORCID 0009-0001-0512-1237). All rights reserved.
+- `Xinghua Zhao` is the W3C-registered display name; the rights line above carries the real name.
+
+## 📄 Rights and attribution
+
+© 2026 赵兴华 / Steven Zhao (ORCID 0009-0001-0512-1237). All rights reserved.
+理论署名 (attribution) : LGD（Lifecycle Governance Doctrine / 全程治理论）— SynomosAI initiative
+名称状态 (name status)  : "SynomosAI" / "MedXpert" — 未申请实体注册、未申请商标注册
+                        (not a registered legal entity; no trademark registered)
+贡献者 (contributors)   : LGD 理论组（ResearchGroup）
+
+Code license: see each repository `LICENSE` (Apache-2.0 / CC BY 4.0 / CC0 / MIT per repo).
+Theory text and methodology are not covered by any code license.
 
 ## 🔗 Related / associated accounts
 
@@ -54,11 +67,16 @@ Some repositories originate from or are mirrored with the associated account **[
 
 ## 🤖 Attribution & AI assistance
 
-This account and its documentation were produced with AI assistance. The specification for the account reorganisation was drafted with ChatGPT and reviewed by the account owner; execution was performed by a WorkBuddy agent on the owner's machine. AI is assistive only and does not replace domain-expert review or official-source verification.
+drafted with AI assistance from sources I read myself; the reading and the position are mine.
+AI is assistive only and does not replace domain-expert review or official-source verification.
+
+## 🤖 AI 协助声明
+
+本账号文档由 AI 辅助完成；所读来源由本人核对，阅读过程与立场由本人负责。AI 不替代领域专家评审与官方来源核验。
 
 ---
 
-*Maintained by [@stevenzhao07](https://github.com/stevenzhao07) · Last layout update: 2026-10-16.*
+*Maintained by [@stevenzhao07](https://github.com/stevenzhao07) · Last layout update: 2026-11-02.*
 
 ---
 
@@ -78,7 +96,7 @@ This account and its documentation were produced with AI assistance. The specifi
 
 ## 🗂 项目分类
 
-> 仓库数量经 GitHub API 于 **2026-10-24** 核验：`@stevenzhao07` 名下 **13 个公开仓库**。
+> 仓库数量经 GitHub API 于 **2026-11-02** 核验：`@stevenzhao07` 名下 **33 个公开仓库**。
 
 | 分类 | 仓库 |
 |---|---|
@@ -99,30 +117,26 @@ This account and its documentation were produced with AI assistance. The specifi
 
 我们区分四个独立层级，**绝不混为一谈**：
 
-| 层级 | 含义 | 当前状态（2026-10-16） |
+| 层级 | 含义 | 当前状态（2026-11-02） |
 |---|---|---|
-| 🟢 **CI** | GitHub Actions 自动化检查通过 | `medical-ai-toolkit` 测试框架为绿色（最近成功 2026-10-13 02:55Z） |
+| 🔴 **CI** | GitHub Actions 自动化检查通过 | `medical-ai-toolkit` 测试框架当前为失败（2026-11-02 核验）；修复进行中 |
 | 🟡 **功能自测** | 模块自带可运行自测 | 部分 —— 多数 CLI 模块含自测路径；覆盖随模块而异 |
 | 🔵 **专家评审** | 领域专家签核 | **待定** —— 这些是参考实现，未经临床验证 |
 | ⚪ **官方来源核验** | 法规常量追溯到带日期的官方来源 | 部分 —— 标注处（如 GMP 2025 #107 于 2026-10-12 核验）；其余标记「使用前请核验」 |
 
 > ⚠️ **本账号下没有任何内容是医疗器械、经认证的法规提交文件或临床建议。** 工具输出决策支持参考；使用者仍须对照现行官方文本自行确认。
 
-## 📄 许可证
+## 📄 权利与归属
 
-声明意图：代码主要为 **Apache-2.0**，**文档/内容为 CC BY 4.0**（部分参考文本为 CC0），以各仓实际存在 `LICENSE` 文件为准。账号内许可证**按仓库混合**（Apache-2.0 / CC BY 4.0 / CC0 / MIT）——见各仓 `LICENSE`。主页仓的 `LICENSE` 文件**待所有者批准（已延期）**；正式归档前，此处许可证为提议状态，尚未最终确定。
+见上方英文「Rights and attribution」段；代码许可以各仓 `LICENSE` 为准，理论文本与方法论不受代码许可覆盖。
 
 ## 🔗 关联账号
 
 部分仓库源自或镜像自关联账号 **[@zhaoxinghua09-cell](https://github.com/zhaoxinghua09-cell)**（如 `uibc-core`、`silent-failure-catalog`、`awesome-healthcare-agents`）。此处列出仅为便于发现，其上游归属在各自仓库 README 中注明。
 
-## 🤖 署名与 AI 协助说明
-
-本账号及其文档由 AI 协助完成。账号重组规范由 ChatGPT 起草并经账号所有者审阅；执行由所有者机器上的 WorkBuddy 智能体完成。AI 仅为辅助，不替代领域专家评审或官方来源核验。
-
 ---
 
-*由 [@stevenzhao07](https://github.com/stevenzhao07) 维护 · 最近布局更新：2026-10-16。*
+*由 [@stevenzhao07](https://github.com/stevenzhao07) 维护 · 最近布局更新：2026-11-02。*
 
 ## Three accounts, one pipeline
 
